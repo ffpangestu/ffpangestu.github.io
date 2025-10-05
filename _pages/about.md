@@ -2,16 +2,16 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Motto. Etc.
+subtitle: Mechatronik-Masterstudent an der Hochschule Darmstadt mit Interesse an Industrie 4.0, Robotik und KI
 
 profile:
   align: right
   image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
+    <p>Masterstudiengang Mechatronik</p>
+    <p>Hochschule Darmstadt</p>
+    <p>firstka.pangestu@stud.h-da.de</p>
 
 selected_papers: false # includes a list of papers marked as "selected={true}"
 social: false # includes social icons at the bottom of the page
@@ -22,8 +22,16 @@ announcements:
   limit: 5 # leave blank to include all the news in the `_news` folder
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+Schon seit meiner Schulzeit motiviert mich mein Interesse, Programmierung zu lernen und an nationalen Wettbewerben teilzunehmen. Ich habe mich dazu entschieden, mich im industriellen Bereich weiter zu spezialisieren. Dafür bin ich direkt ins Epizentrum von Industrie 4.0 gezogen.
 
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+Nach Abschluss meines Sprachkurses ging ich 2018 nach Deutschland, schrieb mich am Studienkolleg ein und entschied mich letztendlich, mein Studium der Mechatronik an der Hochschule Kaiserslautern fortzusetzen. Dort hatte ich die Möglichkeit, von Professorinnen und Professoren sowie Expertinnen und Experten auf diesem Fachgebiet zu lernen und gleichzeitig meine Sprachkenntnisse zu verbessern. Schließlich schrieb ich meine Bachelorarbeit und hielt mein Colloquium auf Deutsch über die Entwicklung, Echtzeitsimulation und Implementierung mobiler Roboter am Fraunhofer ITWM.
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+Als eine der Voraussetzungen für das Masterstudium habe ich meine Englischkenntnisse verbessert und gleichzeitig in meiner Heimatstadt das handwerkliche Grundlagenwissen in den Bereichen Elektrotechnik und Mechanik erworben. Nun bin ich nach Deutschland zurückgekehrt, um meine Passion für die Schwerpunkte Industrie 4.0, Robotik und KI weiterzuverfolgen.
+
+
+
+Since I was in high school, my interest motivated me to learn programming and compete in national level. I followed my dream to further my specialization in industrial field straight to the epicenter of Industry 4.0, Germany.
+
+I went to Germany in 2018 after I finished Sprachkurs and enrolled to Studienkolleg before I decided to continue as Mechatronics student at Hochschule Kaiserslautern. I had opportunities to learn from professors and experts in the field while at the same time improving my language skill. In the end, I did my bachelor thesis and its kolloquium in german about the designing, real-time simulation, and implementation of mobile robot at Fraunhofer ITWM.
+
+As one of the prerequisite master program, I polished my english while learning electrical and mechanical tradecraft at my hometown. I went back to Germany to continue my passion with specialization in Industry 4.0, Robotics, and AI. 
