@@ -2,10 +2,10 @@
   "basics": {
     "name": "Firstka Faiz Pangestu",
     "label": "Masterstudiengang Mechatronik",
-    "image": "",
+    "image": "prof_pic.jpg",
     "email": "firstka.pangestu@stud.h-da.de",
     "url": "https://ffpangestu.github.io/",
-    "summary": "Masterstudent im dritten Semester des Studiengangs Mechatronik mit Interesse an robusten mechatronischen Systemen und innovativen KI-Lösungen im industriellen Bereich.",
+    "summary": "Masterstudent mit Interesse an robusten mechatronischen Systemen und innovativen KI-Lösungen im industriellen Bereich.",
     "location": {
       "address": "2712 Broadway St",
       "postalCode": "CA 94115",
