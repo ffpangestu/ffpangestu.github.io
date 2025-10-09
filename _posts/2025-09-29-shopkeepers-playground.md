@@ -30,21 +30,21 @@ toc:
   - name: Lesson Learned
 # Below is an example of injecting additional post-specific styles.
 # If you use this post as a template, delete this _styles block.
-# _styles: >
-#   .fake-img {
-#     background: #bbb;
-#     border: 1px solid rgba(0, 0, 0, 0.1);
-#     box-shadow: 0 0px 4px rgba(0, 0, 0, 0.1);
-#     margin-bottom: 12px;
-#   }
-#   .fake-img p {
-#     font-family: monospace;
-#     color: white;
-#     text-align: left;
-#     margin: 12px 0;
-#     text-align: center;
-#     font-size: 16px;
-#   }
+_styles: >
+  .fake-img {
+    background: #bbb;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0px 4px rgba(0, 0, 0, 0.1);
+    margin-bottom: 12px;
+  }
+  .fake-img p {
+    font-family: monospace;
+    color: white;
+    text-align: left;
+    margin: 12px 0;
+    text-align: center;
+    font-size: 16px;
+  }
 ---
 
 In this little project, we take a closer look at the transformation of a **simple shop** into a **warehouse environment**. Using **OpenAI Gymnasium** as the base of our Reinforcement Learning (RL) environment, we can observe how small design tweaks completely shift the agent’s behavior and strategy.
@@ -170,5 +170,3 @@ After several iterations, experiments, and plenty of failed training runs, the s
 
 3. **Reducing randomness improves learning.**  
    By modeling customer demand using a **normal distribution** instead of uniform randomness, the agent’s decisions became more stable and interpretable. A more predictable environment helps the agent learn patterns instead of chasing noise.
-
----

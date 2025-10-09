@@ -22,13 +22,13 @@
   <a href="https://github.com/{{ include.username }}">
     <img
       class="only-light w-100"
-      alt="{{ include.username }}"
-      src="https://github-readme-stats.vercel.app/api/?username={{ include.username }}&theme={{ site.repo_theme_light }}&locale={{ lang }}&show_icons=true"
+      alt="{{ include.username }} top languages"
+      src="https://github-readme-stats.vercel.app/api/top-langs/?username={{ include.username }}&layout=compact"
     >
     <img
       class="only-dark w-100"
-      alt="{{ include.username }}"
-      src="https://github-readme-stats.vercel.app/api/?username={{ include.username }}&theme={{ site.repo_theme_dark }}&locale={{ lang }}&show_icons=true"
+      alt="{{ include.username }} top languages"
+      src="https://github-readme-stats.vercel.app/api/top-langs/?username={{ include.username }}&layout=compact"
     >
   </a>
 </div>
