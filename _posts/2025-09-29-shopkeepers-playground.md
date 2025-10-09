@@ -1,7 +1,7 @@
 ---
 layout: distill
-title: Shopkeeper's Journey in the Simulated Environment
-description: A humble beginning for a humble RL-environment
+title: The Shopkeeper's Dilemma: Teaching a Q-learning Agent to Balance Inventory and Cash
+description: From €164 to €1,540, my Q-learning agent went from selling apples to managing a warehouse.
 tags: gymnasium RL environment python qlearning
 giscus_comments: false
 date: 2025-09-29
