@@ -1,6 +1,6 @@
 ---
 layout: distill
-title: The Shopkeeper's Dilemma: Teaching a Q-learning Agent to Balance Inventory and Cash
+title: The Shopkeeper's Dilemma - Teaching an RL-Agent to Balance Inventory and Cash
 description: From €164 to €1,540, my Q-learning agent went from selling apples to managing a warehouse.
 tags: gymnasium RL environment python qlearning
 giscus_comments: false
