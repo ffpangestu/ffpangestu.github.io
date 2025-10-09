@@ -24,6 +24,10 @@ bibliography: 2025-09-29-shopkeepers-digital-playground.bib
 toc:
   - name: The Opening Day
   - name: Expanding Demand
+  - name: Warehouse for Lease
+  - name: Helpers for Hire
+  - name: Customer Behavior
+  - name: Lesson Learned
 # Below is an example of injecting additional post-specific styles.
 # If you use this post as a template, delete this _styles block.
 # _styles: >
@@ -108,5 +112,65 @@ The result? **Average cash improved** to **€847.55**, but the **reward values 
         {% include figure.liquid loading="eager" path="assets/img/0.2.1.png" class="img-fluid rounded z-depth-1" zoomable=true %}
     </div>
 </div>
+<div class="caption">
+  The stock balance and cash growth.
+</div>
+
+---
+
+## Helpers for Hire
+
+It soon became clear that with a bigger warehouse, the shopkeeper couldn’t manage everything alone. To keep up with demand, he decided to **hire helpers**. These helpers **multiplied the restocking rate**, allowing the warehouse to refill much faster, but they also came with a price: **€1 per helper per step**.
+
+To manage them, the shopkeeper gained **two new actions**:
+
+- **Hire a helper** (up to 5 total)
+- **Fire a helper**
+
+The first results were a disaster. The agent went wild, hiring and firing helpers recklessly without considering the overall cash flow. As a result, the **average cash plummeted to –€480**. The warehouse became a financial mess but full of apples.
+
+To encourage smarter management, a **penalty for firing workers (–5)** was introduced. This change nudged the agent to retain helpers longer and think twice before letting them go. Then came another training session, this time for **200,000 episodes**. Finally, it clicked.
+
+The result was remarkable: **Average cash soared to €1,369.** The shopkeeper had finally mastered the art of **balancing workforce, stock, and cost**.
+
+<div class="row mt-3">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/0.3.4.png" class="img-fluid rounded z-depth-1" zoomable=true %}
+    </div>
+</div>
+<div class="caption">
+  Maximizing helpers effectiveness.
+</div>
+
+---
+
+## Customer Behavior
+
+After a long time in business, the shopkeeper began to **notice something curious**: customer demand wasn’t completely random. It seemed to follow a **pattern**, more like a **normal distribution** than uniform chaos.
+
+To capture this insight, the environment was updated to model demand accordingly:
+
+```python
+base = (self._min_demand + self._max_demand) / 2
+self.customer = self.np_random.normal(base, 5, self.max_step).astype(int)
+self.customer = np.clip(self.customer, self._min_demand, self._max_demand)
+```
+
+The results produced the best performance: **€1,540** average cash.
+
+---
+
+## Lesson Learned
+
+After several iterations, experiments, and plenty of failed training runs, the shopkeeper’s journey revealed a few key lessons about reinforcement learning design:
+
+1. **Reward shaping can completely change agent behavior.**  
+   Even a small adjustment in rewards or penalties can flip the agent’s entire strategy, From cautious hoarding to aggressive selling. Reward functions should always align closely with the true goals of the environment.
+
+2. **Add complexity carefully.**  
+   Each new mechanic (storage costs, helpers, or customer demand) initially _breaks_ the agent. When the environment changes, the learning dynamics must be rebalanced through parameter tuning, normalization, or new reward terms.
+
+3. **Reducing randomness improves learning.**  
+   By modeling customer demand using a **normal distribution** instead of uniform randomness, the agent’s decisions became more stable and interpretable. A more predictable environment helps the agent learn patterns instead of chasing noise.
 
 ---
