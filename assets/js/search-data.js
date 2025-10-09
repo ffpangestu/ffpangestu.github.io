@@ -23,37 +23,15 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/cv/";
           },
-        },{id: "post-a-post-with-jupyter-notebook",
+        },{id: "post-shopkeeper-39-s-journey-in-the-simulated-environment",
         
-          title: "a post with jupyter notebook",
+          title: "Shopkeeper&#39;s Journey in the Simulated Environment",
         
-        description: "an example of a blog post with jupyter notebook",
+        description: "A humble beginning for a humble RL-environment",
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/blog/2023/jupyter-notebook/";
-          
-        },
-      },{id: "post-a-distill-style-blog-post",
-        
-          title: "a distill-style blog post",
-        
-        description: "an example of a distill-style blog post and main elements",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/blog/2021/distill/";
-          
-        },
-      },{id: "post-a-post-with-code",
-        
-          title: "a post with code",
-        
-        description: "an example of a blog post with some code",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/blog/2015/code/";
+            window.location.href = "/blog/2025/shopkeepers-playground/";
           
         },
       },{id: "books-the-godfather",
