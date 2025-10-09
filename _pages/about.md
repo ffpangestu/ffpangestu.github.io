@@ -20,7 +20,6 @@ announcements:
   scrollable: false # adds a vertical scroll bar if there are more than 3 news items
   limit: 5 # leave blank to include all the news in the `_news` folder
 
-
 latest_posts:
   enabled: true
   scrollable: true # adds a vertical scroll bar if there are more than 3 new posts items
@@ -34,4 +33,3 @@ latest_posts:
   
   <p>Mein Bachelorstudium in Mechatronik habe ich an der <strong>Hochschule Kaiserslautern</strong> abgeschlossen. Während meiner deutschsprachigen Bachelorarbeit und des dazugehörigen Kolloquiums habe ich mich am <strong>Fraunhofer ITWM</strong> mithilfe von Industrieexperten und Professoren mit der Entwicklung, Echtzeitsimulation und Implementierung mobiler Roboter beschäftigt. Zusätzlich bringe ich praktische Kenntnisse in Elektrotechnik und Mechanik mit, die ich in meinem Heimatland erworben habe.</p>
 </div>
-
