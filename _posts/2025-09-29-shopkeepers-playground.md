@@ -47,11 +47,9 @@ toc:
 #   }
 ---
 
-In this little project, we take a closer look at the transformation of a **simple shop** into a **warehouse environment**.  
-Using **OpenAI Gymnasium** as the base of our Reinforcement Learning (RL) environment, we can observe how small design tweaks completely shift the agent’s behavior and strategy.
+In this little project, we take a closer look at the transformation of a **simple shop** into a **warehouse environment**. Using **OpenAI Gymnasium** as the base of our Reinforcement Learning (RL) environment, we can observe how small design tweaks completely shift the agent’s behavior and strategy.
 
-Our agent relies only on a **simple tabular Q-learning algorithm** — no deep learning, no tricks.  
-The rule of the game is simple:
+Our agent relies only on a **simple tabular Q-learning algorithm** — no deep learning, no tricks. The rule of the game is simple:
 
 > **Whatever we do, never increase the product price.**
 
