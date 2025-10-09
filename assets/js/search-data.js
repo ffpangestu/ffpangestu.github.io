@@ -23,15 +23,15 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/cv/";
           },
-        },{id: "post-shopkeeper-39-s-journey-in-the-simulated-environment",
+        },{id: "post-",
         
-          title: "Shopkeeper&#39;s Journey in the Simulated Environment",
+          title: "",
         
-        description: "A humble beginning for a humble RL-environment",
+        description: "",
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/blog/2025/shopkeepers-playground/";
+            window.location.href = "/blog/2025/2025-09-29-shopkeepers-playground/";
           
         },
       },{id: "books-the-godfather",
