@@ -16,6 +16,13 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/blog/";
           },
+        },{id: "nav-repositories",
+          title: "repositories",
+          description: "",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/repositories/";
+          },
         },{id: "nav-lebenslauf",
           title: "Lebenslauf",
           description: "",
@@ -23,15 +30,15 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/cv/";
           },
-        },{id: "post-",
+        },{id: "post-the-shopkeeper-39-s-dilemma-teaching-an-rl-agent-to-balance-inventory-and-cash",
         
-          title: "",
+          title: "The Shopkeeper&#39;s Dilemma - Teaching an RL-Agent to Balance Inventory and Cash",
         
-        description: "",
+        description: "From €164 to €1,540, my Q-learning agent went from selling apples to managing a warehouse.",
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/blog/2025/2025-09-29-shopkeepers-playground/";
+            window.location.href = "/blog/2025/shopkeepers-playground/";
           
         },
       },{id: "books-the-godfather",
