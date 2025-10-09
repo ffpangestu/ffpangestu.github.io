@@ -24,7 +24,7 @@ announcements:
 <!-- German Section -->
 <div id="lang-de" style="text-align: justify;">
   <p><strong>Herzlich willkommen auf meinem Blog!</strong></p>
-  <p>Ich studiere aktuell im <strong>Master Mechatronik</strong> an der <strong>Hochschule Darmstadt</strong>, mit den Schwerpunkten Industrie 4.0, Robotik und Künstliche Intelligenz. Momentan beschäftige ich mich in meiner Arbeit mit der Anwendung von Deep Reinforcement Learning zur Optimierung der Industriestrategie unter Verwendung einer simulierten Umgebung.</p>
+  <p>Ich studiere aktuell im <strong>Master Mechatronik</strong> an der <strong>Hochschule Darmstadt</strong>, mit den Schwerpunkten Industrie 4.0, Robotik und Künstliche Intelligenz. Momentan beschäftige ich mich in meiner Arbeit mit der Anwendung von Deep Reinforcement Learning zur Optimierung der Strategie unter Verwendung einer simulierten Umgebung.</p>
   
   <p>Mein Bachelorstudium in Mechatronik habe ich an der <strong>Hochschule Kaiserslautern</strong> abgeschlossen. Während meiner deutschsprachigen Bachelorarbeit und des dazugehörigen Kolloquiums habe ich mich am <strong>Fraunhofer ITWM</strong> mithilfe von Industrieexperten und Professoren mit der Entwicklung, Echtzeitsimulation und Implementierung mobiler Roboter beschäftigt. Zusätzlich bringe ich praktische Kenntnisse in Elektrotechnik und Mechanik mit, die ich in meinem Heimatland erworben habe.</p>
 </div>
