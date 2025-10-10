@@ -1,11 +1,22 @@
 ---
 layout: distill
-title: The Shopkeeper's Dilemma - Teaching an RL-Agent to Balance Inventory and Cash
-description: From €164 to €1,540, my Q-learning agent went from selling apples to managing a warehouse.
+title: Shopkeeper - RL-Agent learning to Balance Inventory and Cash
+description: Q-learning agent went from selling apples to managing a warehouse.
 tags: gymnasium RL environment python qlearning
 giscus_comments: false
 date: 2025-09-29
 featured: true
+mermaid:
+  enabled: true
+  zoomable: true
+code_diff: true
+map: true
+chart:
+  chartjs: true
+  echarts: true
+  vega_lite: true
+tikzjax: true
+typograms: true
 
 authors:
   - name: Firstka Faiz Pangestu
@@ -47,9 +58,9 @@ _styles: >
   }
 ---
 
-In this little project, we take a closer look at the transformation of a **simple shop** into a **warehouse environment**. Using **OpenAI Gymnasium** as the base of our Reinforcement Learning (RL) environment, we can observe how small design tweaks completely shift the agent’s behavior and strategy.
+In this little project, we take a closer look at the transformation of a **simple shop** into a **warehouse environment**<d-cite key="A_Basic_Ai_2025_github"></d-cite>. Using **OpenAI Gymnasium**<d-cite key="Using_The_Api_2025_farama"></d-cite> as the base of our Reinforcement Learning (RL) environment, we can observe how small design tweaks completely shift the agent’s behavior and strategy.
 
-Our agent relies only on a **simple tabular Q-learning algorithm** — no deep learning, no tricks. The rule of the game is simple:
+Our agent relies only on a **simple tabular Q-learning algorithm**<d-cite key="Trying_Different_Actions_2025_farama"></d-cite> .No deep learning, no tricks. The rule of the game is simple:
 
 > **Whatever we do, never increase the product price.**
 
@@ -162,11 +173,8 @@ The results produced the best performance: **€1,540** average cash.
 
 After several iterations, experiments, and plenty of failed training runs, the shopkeeper’s journey revealed a few key lessons about reinforcement learning design:
 
-1. **Reward shaping can completely change agent behavior.**  
-   Even a small adjustment in rewards or penalties can flip the agent’s entire strategy, From cautious hoarding to aggressive selling. Reward functions should always align closely with the true goals of the environment.
+1. **Reward shaping can completely change agent behavior.** Even a small adjustment in rewards or penalties can flip the agent’s entire strategy, From cautious hoarding to aggressive selling. Reward functions should always align closely with the true goals of the environment.
 
-2. **Add complexity carefully.**  
-   Each new mechanic (storage costs, helpers, or customer demand) initially _breaks_ the agent. When the environment changes, the learning dynamics must be rebalanced through parameter tuning, normalization, or new reward terms.
+2. **Add complexity carefully.** Each new mechanic (storage costs, helpers, or customer demand) initially _breaks_ the agent. When the environment changes, the learning dynamics must be rebalanced through parameter tuning, normalization, or new reward terms.
 
-3. **Reducing randomness improves learning.**  
-   By modeling customer demand using a **normal distribution** instead of uniform randomness, the agent’s decisions became more stable and interpretable. A more predictable environment helps the agent learn patterns instead of chasing noise.
+3. **Reducing randomness improves learning.** By modeling customer demand using a **normal distribution** instead of uniform randomness, the agent’s decisions became more stable and interpretable. A more predictable environment helps the agent learn patterns instead of chasing noise.
