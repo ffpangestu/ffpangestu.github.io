@@ -30,11 +30,11 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/cv/";
           },
-        },{id: "post-the-shopkeeper-39-s-dilemma-teaching-an-rl-agent-to-balance-inventory-and-cash",
+        },{id: "post-shopkeeper-rl-agent-learning-to-balance-inventory-and-cash",
         
-          title: "The Shopkeeper&#39;s Dilemma - Teaching an RL-Agent to Balance Inventory and Cash",
+          title: "Shopkeeper - RL-Agent learning to Balance Inventory and Cash",
         
-        description: "From €164 to €1,540, my Q-learning agent went from selling apples to managing a warehouse.",
+        description: "Q-learning agent went from selling apples to managing a warehouse.",
         section: "Posts",
         handler: () => {
           
